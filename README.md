@@ -5,4 +5,4 @@
 - [Documentation](https://github.com/VictorCazanave/react-svg-map)
 
 ## Result
-[Example](https://github.com/Guilherme-j10/brazilMapImplementation/blob/main/demo.png)
+https://github.com/Guilherme-j10/brazilMapImplementation/blob/main/demo.png
