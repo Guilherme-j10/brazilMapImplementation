@@ -6,6 +6,8 @@ import './style.css';
 
 function App() {
 
+  const [ StateName, setStateName ] = useState('');
+
   const [ BrazilPreSet, setBrasil ]= useState({
     ...Brazil,
     label: 'Custom map label'
@@ -47,8 +49,10 @@ function App() {
   }, []);
 
   return (
-    <SVGMap className="aps"  map={BrazilPreSet} />
-    // onLocationFocus={(e) => {alert(e.nativeEvent.srcElement.ariaLabel)}}
+    <>
+      <SVGMap className="aps" onLocationFocus={(e) => {setStateName(e.nativeEvent.srcElement.ariaLabel)}}  map={BrazilPreSet} />
+      <h1>Estado: {StateName}</h1>
+    </>
   );
 }
 

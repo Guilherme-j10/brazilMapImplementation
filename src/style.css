@@ -1,3 +1,13 @@
+h1{
+  color: #333;
+  position: fixed;
+  font-family: Arial;
+  margin: 0px;
+  padding: 0px;
+  top: 10px;
+  left: 10px;
+}
+
 .aps {
   height: 600px;
   margin: auto;
@@ -14,5 +24,5 @@
 }
 
 .aps path:focus{
-  fill: #2f86b1;
+  fill: #274662;
 }
